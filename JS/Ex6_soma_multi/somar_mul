@@ -1,0 +1,24 @@
+// criar uma função que retorne os multiplos de 3 e de 10
+somarMulti (10);
+
+
+function somarMulti (numero) {
+    var mult3 = 0;
+    var mult5 =0;
+    for (let i=0;i<= numero;i++) {
+
+        if (i % 3 === 0) {
+             mult3= i + mult3;
+            } else if ( i % 5 ===0 ) {
+                var mult5 = i + mult5;
+                } else {
+                    mult5 = mult5 + 0;
+                    mult3 = mult3 + 0;
+                }
+  
+    }
+
+    console.log (mult3 + mult5);      
+        
+
+}

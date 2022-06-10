@@ -1,0 +1,1 @@
+let corFavorita = prompt ('Digite sua cor favorita:')
